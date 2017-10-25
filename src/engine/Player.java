@@ -1,6 +1,6 @@
-package engine;
+package src.engine;
 
-import gui.Card;
+import src.gui.Card;
 
 public class Player {
 

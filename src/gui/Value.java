@@ -1,4 +1,4 @@
-package gui;
+package src.gui;
 
 public enum Value {
 	ONE,TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,ZERO,PLUS2,SKIP,ROTATE,REQUEST,REQUEST4

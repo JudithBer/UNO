@@ -1,11 +1,11 @@
-package engine;
+package src.engine;
 
 import java.util.ArrayList;
 
-import gui.Card;
-import gui.Colour;
-import gui.Deck;
-import gui.Value;
+import src.gui.Card;
+import src.gui.Colour;
+import src.gui.Deck;
+import src.gui.Value;
 
 public class Game {
 	private Deck deck;
@@ -26,7 +26,7 @@ public class Game {
 	private boolean mustDraw = false;
 	
 
-　
+
 	public Game(){
 		deck=new Deck();
 		deck.create();
@@ -133,7 +133,7 @@ public class Game {
 	}	
 	
 
-　
+
 	public boolean checkCard(Card card){
 
 		return true;
